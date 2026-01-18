@@ -5,7 +5,7 @@ import os
 # Page Configuration
 st.set_page_config(
     page_title="HearSee",
-    page_icon="hearsee.png",
+    page_icon="hearsee_logo.png",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
@@ -116,7 +116,7 @@ client = openai.OpenAI(api_key=api_key)
 # Main UI
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.image("hearsee.png", use_container_width=True)
+    st.image("hearsee_logo.png", use_container_width=True)
 
 st.markdown("<h1 style='text-align: center; margin-bottom: 5px;'>HearSee</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #A1A1AA; margin-bottom: 40px;'>Professional Audio Transcription Engine</p>", unsafe_allow_html=True)
