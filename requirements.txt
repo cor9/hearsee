@@ -3,4 +3,4 @@ openai
 watchdog
 pydub
 requests
-pyaudioop-headless
+pyaudioop
