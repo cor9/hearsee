@@ -213,7 +213,7 @@ with col2:
     st.image("logo.png", use_container_width=True)
 
 st.markdown("<h1 style='text-align: center; margin-bottom: 5px;'>Hear-See</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; color: #A1A1AA; margin-bottom: 40px;'>Professional Audio Transcription Engine</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #A1A1AA; margin-bottom: 40px;'>Audio Transcription Magic</p>", unsafe_allow_html=True)
 
 # Tabs
 tab1, tab2, tab3 = st.tabs(["📁 Upload File", "🔗 Audio URL", "🎙️ Dictation"])
